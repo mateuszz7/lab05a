@@ -10,7 +10,7 @@ jobs:
       - name: Setup Java JDK
         uses: actions/setup-java@v2
         with:
-          java-version: ’17’
-          distribution: ’adopt’
+          java-version: '17'
+          distribution: 'adopt'
       - name: Test with Ant
         run: ant -noinput -buildfile Rational/build.xml test
